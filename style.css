@@ -1,0 +1,86 @@
+h1, h2 {
+  color: rgb(236, 237, 241);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+body{
+  background: linear-gradient(#e66465, #9198e5);
+  /* background: linear-gradient(left top,  rgba(184,198,223,1) 50%, rgba(109,136,183,1) 100%); */
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: rgba(250,250,250,.9);
+  line-height: 1rem;
+}
+
+a {
+  color: rgb(186, 217, 245);
+}
+
+p{
+  padding: 2rem ;
+}
+
+img {
+  width: 15em;
+  height: 15em;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+div {
+  border: 1px solid whitesmoke;
+  margin: 0 auto;
+  padding: auto;
+}
+
+.card-dark {
+  background: rgb(36, 48, 56);
+  border: whitesmoke;
+  border-radius: 5px;
+  box-shadow: 10px 10px 30px rgba(0,0,0,.1);
+  padding: 20px;
+  margin: 10px;
+}
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list-inline > li {
+  padding: 0px 20px;
+  margin: 0 1rem;
+}
+
+.list-inline {
+  display: inline-flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.fab {
+  font-size: 3rem;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 65%;
+  }
+}
+@media (max-width: 660px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 85%;
+  }
+}
